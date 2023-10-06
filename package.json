@@ -1,0 +1,13 @@
+{
+  "name": "activity-watcher",
+  "version": "1.0.0",
+  "repository": "https://github.com/EvegeniyNekrasov/activity-watcher",
+  "author": "Evgeniy Aleksandrovich Nekrasov <eanekrasovart@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
