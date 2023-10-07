@@ -1,1 +1,1 @@
-console.log('working')
+export { UserActivityTracker } from './lib/UserActivityTracker.js'
